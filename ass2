@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Information</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Contact Information</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Name</h2>
+			<p>John Doe</p>
+		</section>
+		<section>
+			<h2>Email Address</h2>
+			<p>john.doe@email.com</p>
+		</section>
+		<section>
+			<h2>Phone Number</h2>
+			<p>(123) 456-7890</p>
+		</section>
+	</main>
+	<footer>
+		<p>&; 2021 John Doe</p>
+	</footer>
+</body>
+</html>
+
+/* styles.css */
+
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	color: #333;
+	line-height: 1.5;
+	margin: 0;
+}
+
+header, main, footer {
+	padding: 20px;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+h1 {
+	margin: 0;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+p {
+	margin: 0;
+}
+
+footer {
+	background-color: #eee;
+	font-size: 0.8em;
+	text-align: center;
+}
